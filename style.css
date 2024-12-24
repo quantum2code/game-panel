@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --clr-white-10: #ffffff;
+    --clr-white-05: #ffffff9a;
+    --clr-black: #000000;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+
+.nav-left {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+}
+
+.nav-left a{
+    color: var(--clr-black);
+    font-family: "Reddit Sans", serif;
+    font-weight: 400;
+}
